@@ -45,3 +45,28 @@ console.log( ` Apvalinam sk: ${num1} su funkcija Math.round ir gauname: ${round}
 
 console.log(2 ** 3);
 console.log('Math.pow(2,3) ', Math.pow(2,3));
+
+//  minimalios reiksmes radimas
+let skMin = Math.min(-10, 0, 15, -15, 25);
+console.log('Math.min(-10, 0, 15, -15, 25)', skMin);
+
+let skMax = Math.max(-10, 0, 15, -15, 25);
+console.log('Math.max(-10, 0, 15, -15, 25)', skMax);
+
+console.log('skaicius Math.random sugeneruoja skaiciu nuo 0 iki 1 (1 niekada nebus', Math.random());
+console.log('skaicius Math.random sugeneruoja skaiciu nuo 0 iki 1 (1 niekada nebus', Math.random());
+console.log('skaicius Math.random sugeneruoja skaiciu nuo 0 iki 1 (1 niekada nebus', Math.random());
+console.log('skaicius Math.random sugeneruoja skaiciu nuo 0 iki 1 (1 niekada nebus', Math.random());
+
+// skaicius nuo 1 iki 10 
+let skIkiDesimt = Math.floor(Math.random()*10) + 1;
+console.log('skaicius nuo 1 iki 10:', skIkiDesimt);
+
+
+// Apvalina
+let kaina = 14.5871;
+let apvalinKaina = kaina.toFixed(2);
+console.log(` kaina: ${kaina} su funkcija kaina.toFixed suapvalina ${apvalinKaina}`);
+
+let presicionKaina = kaina.toPrecision(5);
+console.log(` kaina: ${kaina} su funkcija kaina.toPrecision(5) atiduoda tiek skaitmenu kiek skliausteliuose ${presicionKaina}`);
