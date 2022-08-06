@@ -8,6 +8,7 @@ let sentence = `Studentas ${userName} yra ${age} metu ir jis gyvena ${town}.`
 console.log(sentence);
 
 // Kiek bus Jams metu po 5 metu?
+// su bektikais galima atlikineti veiksmus.
 
 let po5Metu = `${userName} bus ${age + 5 } po 5 metu.`;
 console.log(po5Metu);

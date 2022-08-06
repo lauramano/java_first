@@ -9,7 +9,7 @@ typeof console.log;
 let labRyt = typeof ('Labas rytas');
 console.log( 'labas rytas duomenu tipas yra :', labRyt);
 
-let trueType = typeof ('true');
+let trueType = typeof (true);
 console.log( 'True duomenu tipas yra :', trueType);
 
 let skaiciusType = typeof(365/12);
@@ -25,6 +25,6 @@ let consoleType = typeof( console.log);
 console.log('console.log duomenu tipas yra : ', consoleType);
 
 
+let nullType = typeof(null);
+console.log('NULL duomenu tipas yra:', nullType);
 
-
-// if (amzius);

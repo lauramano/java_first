@@ -1,3 +1,4 @@
+'use strict';
 console.log('./js/prompt.js is loaded');
 
 // apskaiciuoti apskritimo plota.
@@ -22,7 +23,7 @@ console.log(resltSring);
 
 // alert('kazkur kazkaip'); // ekstra pranesimas vartotojams
 
-// confirm(' ar tikrai norite istrinti si pranesima'); // ekstra pstvirtinimas
+// confirm(' ar tikrai norite istrinti si pranesima'); // ekstra patvirtinimas
 
 /* 
 pirma eilute.
